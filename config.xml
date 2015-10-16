@@ -18,8 +18,8 @@
             @iampatgrady
         </author>
 
-            <gap:plugin name="uk.co.ibcomputing.phonegapbuild.plugins.receivesendintents" version="0.2.1">
-    <param name="LAUNCHMODE" value="..." />
-</gap:plugin>
+        <gap:plugin name="uk.co.ibcomputing.phonegapbuild.plugins.receivesendintents" version="0.2.1">
+            <param name="LAUNCHMODE" value="singleTop" />
+        </gap:plugin>
     </widget>
 
