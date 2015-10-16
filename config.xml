@@ -1,0 +1,24 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.karaoketube.beta"
+        versionCode = "1" 
+        version     = "0.0.1" >
+
+    <!-- versionCode is optional and Android only -->
+
+        <name>KaraokeTube</name>
+
+        <description>
+            This is a karaoke queuing app built using PhoneGap.
+        </description>
+
+        <author href="https://github.com/iampatgrady" email="pat.grady@gmail.com">
+            @iampatgrady
+        </author>
+    </widget>
+
+    <gap:plugin name="uk.co.ibcomputing.phonegapbuild.plugins.receivesendintents" version="0.2.1">
+    <param name="LAUNCHMODE" value="..." />
+</gap:plugin>
