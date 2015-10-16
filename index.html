@@ -41,6 +41,17 @@
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
+
+            window.plugins.webintent.getExtra(WebIntent.EXTRA_TEXT, 
+    function(url) {
+        alert(url);
+
+        // url is the value of EXTRA_TEXT
+    }, function() {
+        alert("was nothing");
+        // There was no extra supplied.
+    }
+);
         </script>
     </body>
 </html>
