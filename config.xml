@@ -17,8 +17,9 @@
         <author href="https://github.com/iampatgrady" email="pat.grady@gmail.com">
             @iampatgrady
         </author>
-    </widget>
 
-    <gap:plugin name="uk.co.ibcomputing.phonegapbuild.plugins.receivesendintents" version="0.2.1">
+            <gap:plugin name="uk.co.ibcomputing.phonegapbuild.plugins.receivesendintents" version="0.2.1">
     <param name="LAUNCHMODE" value="..." />
 </gap:plugin>
+    </widget>
+
