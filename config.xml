@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.karaoketube.betas"
+        id          = "io.marymary.karaoketube"
         versionCode = "1" 
         version     = "0.0.1" >
 
@@ -20,5 +20,10 @@
         <gap:plugin name="uk.co.ibcomputing.phonegapbuild.plugins.receivesendintents">
             <param name="LAUNCHMODE" value="singleTop" />
         </gap:plugin>
+        
+        <feature name="debug-server" required="true">
+            <param name="domain" value="http://localhost:8080"/>
+            <param name="key" value="io.marymary.karaoketube"/>
+        </feature>
     </widget>
 
