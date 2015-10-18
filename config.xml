@@ -22,7 +22,7 @@
         </gap:plugin>
         
         <feature name="debug-server" required="true">
-            <param name="domain" value="http://localhost:8080"/>
+            <param name="domain" value="http://192.168.1.9:8080"/>
             <param name="key" value="io.marymary.karaoketube"/>
         </feature>
     </widget>
